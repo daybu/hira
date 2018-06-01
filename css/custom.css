@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+	font-size: 16px;
+	color:  #3c3a3a;
+}
+img{
+	max-width: 100%;
+    display: block;
+}
+header{
+    margin: 30px 0;
+}
+.container{
+    width: 1200px;
+    /* background:  red; */
+    margin:  0 auto;
+    overflow:  hidden;
+}
+.logo{
+    width: 20%;
+    float:  left;
+}
+.logo img{}
+
+nav{
+    width:  80%;
+    float:  left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    /* list-style-type:  none; */
+    /* float:  left; */
+    text-align:  right;
+}
+nav ul li{
+    list-style:  none;
+    /* float:  left; */
+    /* margin: 15px; */
+    display:  inline;
+}
+nav ul li a{text-decoration:  none;color: gray;font-size: 22px;margin-left: 40px;}
+nav ul li a:hover{}
+
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+
+.article-section{}
+.container-box{
+    width: 1000px;
+    margin:  0 auto;
+}
+article{
+    padding: 30px 0;
+}
+article span{
+    color:  gainsboro;
+}
+article h1{
+    font-size: 2em;
+}
+article p{}
+article a{
+    text-decoration:  none;
+}
+article a span{
+    text-decoration: none;
+}
+
+.gallery-box{
+    /* padding: 30px; */
+    /* margin-bottom:  10px; */
+    overflow:  hidden;
+}
+.gallery{
+    width: 50%;
+    float:  left;
+    /* padding: 30px; */
+    /* margin-bottom:  10px; */
+}
+.gallery span{
+    /* margin-top:  10px; */
+}
+.gallery h1{}
+.gallery p{}
+.gallery img{
+    width: 100%;
+    margin-bottom:  10px;
+}
+
+footer{
+    background: #efe9e9;
+}
+.footer-menu{
+    width:  50%;
+    float:  left;
+    /* padding: 30px 0; */
+    padding: 30px 0;
+}
+.footer-menu ul{
+    margin:  0;
+    padding: 0;
+    /* text-decoration:  none; */
+    list-style:  none;
+}
+.footer-menu ul li {
+    list-style:  none;
+    float:  left;
+}
+.footer-menu ul li a{
+    text-decoration:  none;
+    text-transform:  capitalize;
+    margin-right:  20px;
+    color:  gray;
+}
+.footer-menu ul li a:hover{}
+
+.social-menu{
+    width:  50%;
+    display:  inline-block;
+    padding: 30px 0;
+}
+.social-menu ul{
+    margin:  0;
+    padding: 0;
+    text-align:  right;
+}
+.social-menu ul li{
+    display:  inline-block;
+}
+.social-menu ul li span{}
+.social-menu ul li a{
+    color:  gray;
+    margin-left: 10px;
+}
+.social-menu ul li a:hover{}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+	font-size: 16px;
+	color:  gray;
+}
+img{
+	max-width: 100%;
+    display: block;
+}
+header{
+    margin: 30px 0;
+}
+.container{
+    width: 1200px;
+    /* background:  red; */
+    margin:  0 auto;
+    overflow:  hidden;
+}
+.logo{
+    width: 20%;
+    float:  left;
+}
+.logo img{}
+
+nav{
+    width:  80%;
+    float:  left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    /* list-style-type:  none; */
+    /* float:  left; */
+    text-align:  right;
+}
+nav ul li{
+    list-style:  none;
+    /* float:  left; */
+    /* margin: 15px; */
+    display:  inline;
+}
+nav ul li a{text-decoration:  none;color: gray;font-size: 22px;margin-left: 40px;}
+nav ul li a:hover{}
+
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+
+.article-section{}
+.container-box{
+    width: 1000px;
+    margin:  0 auto;
+}
+article{
+    padding: 30px 0;
+}
+article span{
+    color:  gainsboro;
+}
+article h1{
+    font-size: 2em;
+}
+article p{}
+article a{
+    text-decoration:  none;
+}
+article a span{
+    text-decoration: none;
+}
+
+.gallery-box{
+    /* padding: 30px; */
+    /* margin-bottom:  10px; */
+    overflow:  hidden;
+}
+.gallery{
+    width: 50%;
+    float:  left;
+    /* padding: 30px; */
+    /* margin-bottom:  10px; */
+    box-sizing:  border-box;
+    padding: 30px;
+}
+.gallery span{
+    /* margin-top:  10px; */
+}
+.gallery h1{}
+.gallery p{}
+.gallery img{
+    width: 100%;
+    margin-bottom:  10px;
+}
+
+footer{
+    background: #efe9e9;
+}
+.footer-menu{
+    width:  50%;
+    float:  left;
+    /* padding: 30px 0; */
+    padding: 30px 0;
+}
+.footer-menu ul{
+    margin:  0;
+    padding: 0;
+    /* text-decoration:  none; */
+    list-style:  none;
+}
+.footer-menu ul li {
+    list-style:  none;
+    float:  left;
+}
+.footer-menu ul li a{
+    text-decoration:  none;
+    text-transform:  capitalize;
+    margin-right:  20px;
+    color:  gray;
+}
+.footer-menu ul li a:hover{}
+
+.social-menu{
+    width:  50%;
+    display:  inline-block;
+    padding: 30px 0;
+}
+.social-menu ul{
+    margin:  0;
+    padding: 0;
+    text-align:  right;
+}
+.social-menu ul li{
+    display:  inline-block;
+}
+.social-menu ul li span{}
+.social-menu ul li a{
+    color:  gray;
+    margin-left: 10px;
+}
+.social-menu ul li a:hover{}
+
+
